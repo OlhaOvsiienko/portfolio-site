@@ -1,0 +1,31 @@
+.header-avatar {
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header-title-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header-text {
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }

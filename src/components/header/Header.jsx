@@ -1,28 +1,29 @@
-import './Header.styles.js'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import './Header.styles.css'
+import useDeviceType from '../../hooks/use-device-type.jsx'
+import Menu from '../menu/Menu.jsx'
+import HeaderTitle from '../header-title/HeaderTitle.jsx'
+
 
 const Header = () => {
-    
-  
-    return (
-      <nav>
-        Header
-        <ul>
-          <li>
-            <Link to='/'>About Myself</Link>
-          </li>
-          <li>
-            <Link to='/certificates'>Certificates</Link>
-          </li>
-          <li>
-            <Link to='/contacts'>Contacts</Link>
-          </li>
-          <li>
-            <Link to='/skills'>Skills</Link>
-          </li>
-        </ul>
-      </nav>
-    )
-  }
-  
-  export default Header
+  const { isMobile, isTablet, isDesktop } = useDeviceType()
+
+  return (
+    <header className="header-container">
+      {(isMobile) && (
+        <>
+          <Menu />
+          <HeaderTitle />
+        </>
+      )}
+      {(isDesktop || isTablet) && (
+        <>
+          <HeaderTitle />
+          <Menu />
+        </>
+      )}
+    </header>
+  );
+};
+
+export default Header  

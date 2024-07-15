@@ -1,0 +1,60 @@
+.menu-container {
+    
+
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%; /* Ширина меню */
+    height: 100%;
+    background-color: #9db3aa; /* Цвет фона меню */
+    border-radius: 5px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятия */
+    transform: translateX(-100%); /* Начальное скрытие за экран */
+    transition: transform 0.3s ease; /* Анимация для smooth перехода */
+  
+    z-index: 1000; 
+  }
+  
+  .mobile-menu.open {
+    transform: translateX(0); 
+  }
+  
+  .desktop-menu {
+    display: block;
+  }
+
+  .close-button-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    
+  }
+  
+  
+  
+  
+
+ 

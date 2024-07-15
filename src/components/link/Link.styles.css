@@ -1,0 +1,14 @@
+.accordion-link {
+    font-weight: 700;
+    color: #065d2b;
+}
+
+.accordion-link:hover {
+    background-color: #b7cabf;
+    color: rgb(61, 78, 65);
+}
+
+.button-accordion:active {
+    background-color: #bfd3c7;
+    color:#fafffc;
+}

@@ -1,27 +1,33 @@
 import Header from './components/header/Header.jsx'
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-import AboutMyself from './pages/about-myself/AboutMyself.jsx'
-import Certificates from './pages/certificates/Certificates.jsx'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import HomePage from './pages/home-page/HomePage.jsx'
+import CertificatesPage from './pages/certificates/CertificatesPage.jsx'
 import Contacts from './pages/contacts/Contacts.jsx'
-import Skills from './pages/skills/Skills.jsx'
+import Portfolio from './pages/portfolio/Portfolio.jsx'
+import ProjectPage from './pages/project-page/ProjectPage.jsx'
 import Footer from './components/footer/Footer.jsx'
+import './App.css'
 
 
 const App = () => {
   return (
     <Router>
-    <div>
-      <Header />
-      <Routes>
-        <Route path='/' element={<AboutMyself/>} />
-        <Route path='/certificates' element={<Certificates/>} />
-        <Route path='/contacts' element={<Contacts/>} />
-        <Route path='/skills' element={<Skills/>} />
-      </Routes>
-      <Footer />
-    </div>
-   </Router>
+      <div className='page-container'>
+        <Header />
+        <div className="content-wrap">
+          <Routes>
+            <Route path='/' element={<HomePage/>} />
+            <Route path='/certificates' element={<CertificatesPage/>} />
+            <Route path='/contacts' element={<Contacts/>} />
+            <Route path='/portfolio' element={<Portfolio/>} />                
+            <Route path="/portfolio/:label" element={<ProjectPage />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </Router>
   )
 }
 
 export default App
+

@@ -1,12 +1,9 @@
-import './Contacts.styles.js'
+import ContactsContent from "../../components/contacts-content/ContactsContent"
 
 const Contacts = () => {
     
-  
     return (
-      <h2>
-        Contacts
-      </h2>
+        <ContactsContent />
     )
   }
   

@@ -1,0 +1,27 @@
+.contacts-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 18px;
+    border: 2px solid #8ea69b;
+    box-shadow: 0px 8px 16px #8ea69b;
+}
+
+.link-contacts {
+    color: black;
+    text-decoration: none;
+}
+
+.link-contacts:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .contacts-content-container {
+        gap: 10px;
+        font-size: 16px;
+    }
+}

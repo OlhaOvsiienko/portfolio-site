@@ -1,0 +1,128 @@
+.navbar {
+  flex-direction: row; 
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  cursor: pointer; 
+  color: white;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-button {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding-top: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.portfolio-button:hover .portfolio-button-text,
+.portfolio-button:hover .navbar-icon {
+  color: black;
+}
+
+.portfolio-button-text {
+  margin-right: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: rgba(250, 255, 252, 0.851); 
+  color: black;
+  border-radius: 5px;
+}
+
+.nav-button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.portfolio-dropdown-container {
+  position: relative;
+  display: inline-bloc;
+  color:white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-button {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: start;
+  }
+  
+  .nav-button {
+    width: 80%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+  }
+  
+  .nav-button:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+  }
+
+  .portfolio-dropdown-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.footer-navbar {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: start;
+  max-width: 100%;
+  border: none;
+}
+
+.footer-nav-button {
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  border: none;
+}
+
+.footer-nav-button:hover {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-icon {
+  padding: 0px;
+}
+
+/*=================With decoration nav-buttons according to location=================*/
+/*.nav-button.active, .portfolio-button.active {
+  color: black;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
