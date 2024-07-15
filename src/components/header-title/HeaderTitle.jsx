@@ -3,7 +3,7 @@ import useDeviceType from '../../hooks/use-device-type.jsx'
 import Avatar from '../../images/avatar.png'
 
 const HeaderTitle = () => {
-    const { isMobile, isTablet, isDesktop } = useDeviceType()
+    const { isTablet, isDesktop } = useDeviceType()
   
     return (
       <div className="header-title-container">

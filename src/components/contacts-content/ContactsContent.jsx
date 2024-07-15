@@ -1,5 +1,4 @@
 import './ContactsContent.styles.css'
-import Link from '../link/Link'
 
 const contactDetails = [
   {
