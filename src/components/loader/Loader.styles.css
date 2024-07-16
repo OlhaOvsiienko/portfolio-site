@@ -1,0 +1,25 @@
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Центрирование по вертикали на всю высоту экрана */
+  }
+  
+  .loader {
+    border: 6px solid rgba(0, 0, 0, 0.1); /* Цвет рамки */
+    border-radius: 50%;
+    border-top: 6px solid #9db3aa; /* Цвет верхней части рамки (индикатора) */
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Анимация вращения */
+    margin-bottom: 10px; /* Отступ снизу */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+ 
+  

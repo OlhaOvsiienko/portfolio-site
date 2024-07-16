@@ -12,7 +12,6 @@ const HeaderTitle = () => {
             <div className="header-avatar">
                 <img src={Avatar} alt="Avatar" className="avatar" />
             </div>
-         
         )}
 
         <h4 className="header-text">
