@@ -1,4 +1,4 @@
-.header-container {
+/*.header-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -14,9 +14,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-}
+}*/
 
-/*.header-container {
+/*============== Without Avatar on Mobile ============= */
+.header-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,7 +34,7 @@
     padding-right: 10px;
     justify-content: flex-start;
   }
-}*/
+}
 
 
 
