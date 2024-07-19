@@ -1,5 +1,4 @@
-import React from "react";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import GitHubIcon from '@mui/icons-material/GitHub'
 
 const ProjectCard = ({
   imgSrc,
@@ -53,10 +52,10 @@ const ProjectCard = ({
           )}
         </div>
       </div>
-  );
-};
+  )
+}
 
-export default ProjectCard;
+export default ProjectCard
 
 
 

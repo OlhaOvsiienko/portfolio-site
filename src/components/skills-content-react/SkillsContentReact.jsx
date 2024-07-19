@@ -6,11 +6,11 @@ const SkillsContentReact = () => {
     <div>
       <SkillsContent skillType='react' />
       <p>
-        The example of my work can be seen{' '}
-        <Link href='https://mine-sweeper-game-js.netlify.app/'>
-          here
-        </Link>{' '}
-        (this is TODO List).
+      This site is written in React. See{' '}
+        <Link href='https://github.com/OlhaOvsiienko/portfolio-site'>
+          GitHub repo
+        </Link>
+      . 
       </p>
     </div>
   )
