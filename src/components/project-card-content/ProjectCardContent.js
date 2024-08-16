@@ -8,15 +8,7 @@ const ProjectCardContent = [
         <>
           The assignment is a part of the curriculum of the HTML CSS JS course at SoftServeAcademy.
           <br /><br />
-          The team's task was to replicate the original {' '} 
-          <a 
-          href='https://app.weblium.com/home#template-explorer' 
-          target="_blank" 
-          rel="noopener noreferrer"
-          style={{ color: '#007BFF', textDecoration: 'none' }}
-          >
-          site
-          </a>. 
+           
           The full version of the team project can be seen  {' '} 
           <a 
           href='https://koldovsky.github.io/1038-team-03' 
@@ -34,12 +26,10 @@ const ProjectCardContent = [
         </>
       ),
       label: 'DentalClinic',
-      tryLink: 'https://koldovsky.github.io/1038-team-03/schedule.html#', 
+      tryLink: 'https://dental-clinic-schedule.netlify.app/schedule.html', 
       btnTryText: 'View',
-      gitHubLink: 'https://github.com/koldovsky/1038-team-03/blob/main/partials/schedule.clinics.partial.html',
+      gitHubLink: 'https://github.com/OlhaOvsiienko/dental-clinic',
       btnGitHubText: 'GitHub Repo'
-
-      //Here is my part of the work. Its implementation in a team project can be seen here:
     },
     {
       imgSrc: require('./../../images/Minesweeper.jpg'),

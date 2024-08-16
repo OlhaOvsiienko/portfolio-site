@@ -10,10 +10,10 @@ const SkillsContentHtmlCssJs = () => {
             
       <p>
       The example of my work can be seen{' '}
-        <Link href='https://koldovsky.github.io/1038-team-03/schedule.html#'>
+        <Link href='https://dental-clinic-schedule.netlify.app/schedule.html'>
           here
-        </Link>{' '}
-        (my part of the team project is the entire page except the header and the footer).
+        </Link>
+      .
       </p>
       
     
