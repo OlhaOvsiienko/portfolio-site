@@ -7,7 +7,7 @@ const SkillsContentJS = () => {
       <SkillsContent skillType='js' />
       <p>
         The example of my work can be seen{' '}
-        <Link href='https://minesweeper-js-game.netlify.app'>
+        <Link to={`/portfolio/Minesweeper`}>
           here
         </Link>{' '}
         (this is MineSweeper game).

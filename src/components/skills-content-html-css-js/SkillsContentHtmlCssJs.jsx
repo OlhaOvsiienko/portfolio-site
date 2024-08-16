@@ -10,7 +10,7 @@ const SkillsContentHtmlCssJs = () => {
             
       <p>
       The example of my work can be seen{' '}
-        <Link href='https://dental-clinic-schedule.netlify.app/schedule.html'>
+        <Link to={`/portfolio/DentalClinic`}>
           here
         </Link>
       .

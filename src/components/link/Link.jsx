@@ -1,16 +1,38 @@
-import './Link.styles.css'
+import { Link as RouterLink } from 'react-router-dom';
+import './Link.styles.css';
 
-const Link = ({ href, children }) => {
-  return (
-    <a
-      className='accordion-link'
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      {children}
-    </a>
-  )
-}
+const Link = ({ to, href, children, ...props }) => {
+  
+  const isExternal = href && !to;
+  const isInternal = to && !href;
 
-export default Link
+  if (isExternal) {
+    return (
+      <a
+        className='accordion-link'
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        {...props}
+      >
+        {children}
+      </a>
+    );
+  }
+
+  if (isInternal) {
+    return (
+      <RouterLink
+        className='accordion-link'
+        to={to}
+        {...props}
+      >
+        {children}
+      </RouterLink>
+    );
+  }
+
+  return null;
+};
+
+export default Link;

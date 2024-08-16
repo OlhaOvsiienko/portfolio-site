@@ -14,7 +14,6 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-/*========================*/
 
 .project-card.portfolio {
     border: 1px solid #8ea69b;
@@ -55,6 +54,10 @@
     text-align: center;
     width: 100%;
     padding-bottom: 5px;
+}
+
+.project-link {
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {

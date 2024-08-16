@@ -63,7 +63,7 @@ const AboutMyself = () => {
                     <h4>
                         Hello! 
                         <br/>
-                        My name is Olha Ovsiienko.
+                        I'm Olha Ovsiienko.
                     </h4>
                     <p>
                         I'm looking for a job as a front-end developer. I chose this direction because when you see the result of work in the browser, it inspires. I also like solving logic problems. 

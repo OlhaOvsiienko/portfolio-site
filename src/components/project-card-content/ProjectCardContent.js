@@ -1,36 +1,37 @@
+import Link from '../link/Link'
+
 const ProjectCardContent = [
-    {
-      imgSrc: require('./../../images/DentalClinic.jpg'),
-      imgAlt: 'Dental Clinic Site',
-      title: 'Dental Clinic Site',
-      abstract: 'HTML CSS JS',
-      description: (
-        <>
-          The assignment is a part of the curriculum of the HTML CSS JS course at SoftServeAcademy.
-          <br /><br />
-           
-          The full version of the team project can be seen  {' '} 
-          <a 
+  {
+    imgSrc: require('./../../images/DentalClinic.jpg'),
+    imgAlt: 'Dental Clinic Site',
+    title: 'Dental Clinic Site',
+    abstract: 'HTML CSS JS',
+    description: (
+      <>
+        The assignment is a part of the curriculum of the HTML CSS JS course at SoftServeAcademy.
+        <br /><br />
+         
+        The full version of the team project can be seen  {' '} 
+        <Link 
           href='https://koldovsky.github.io/1038-team-03' 
           target="_blank" 
           rel="noopener noreferrer"
-          style={{ color: '#007BFF', textDecoration: 'none' }}
-          >         
-          here
-          </a>.
-          <br /><br />
-          Mobile responsive website.
-          <br /><br />
-          My work in the project can be seen by clicking on the View button.
-          <br /><br />
-        </>
-      ),
-      label: 'DentalClinic',
-      tryLink: 'https://dental-clinic-schedule.netlify.app/schedule.html', 
-      btnTryText: 'View',
-      gitHubLink: 'https://github.com/OlhaOvsiienko/dental-clinic',
-      btnGitHubText: 'GitHub Repo'
-    },
+        >         
+        here
+        </Link>.
+        <br /><br />
+        Mobile responsive website.
+        <br /><br />
+        My work in the project can be seen by clicking on the View button.
+        <br /><br />
+      </>
+    ),
+    label: 'DentalClinic',
+    tryLink: 'https://dental-clinic-schedule.netlify.app/schedule.html', 
+    btnTryText: 'View',
+    gitHubLink: 'https://github.com/OlhaOvsiienko/dental-clinic',
+    btnGitHubText: 'GitHub Repo'
+  },
     {
       imgSrc: require('./../../images/Minesweeper.jpg'),
       imgAlt: 'Minesweeper Game',
@@ -92,9 +93,9 @@ const ProjectCardContent = [
         </>
         ),
         label: 'FormValidation',
-        tryLink: 'https://koldovsky.github.io/1038-team-03/schedule.html#', 
+        tryLink: 'https://dental-clinic-schedule.netlify.app', 
         btnTryText: 'View',
-        gitHubLink: 'https://github.com/koldovsky/1038-team-03/blob/main/partials/schedule.clinics.partial.html',
+        gitHubLink: 'https://github.com/OlhaOvsiienko/dental-clinic/blob/main/js/index.book-visit.js',
         btnGitHubText: 'GitHub Repo'
     },
     {
@@ -115,7 +116,22 @@ const ProjectCardContent = [
       btnTryText: 'View',
       //gitHubLink: 'https://github.com/koldovsky/1038-team-03/blob/main/partials/schedule.clinics.partial.html',
       //btnGitHubText: 'GitHub Repo'
-  }
+  },
+  {
+    imgSrc: require('./../../images/ThisSite.jpg'),
+    imgAlt: 'ThisSite',
+    title: 'This Site',
+    abstract: 'React',
+    description: (
+      <>
+      The site you are on is written in React.
+      <br /><br />
+      </>
+    ),
+    label: 'ThisSite',
+    gitHubLink: 'https://github.com/OlhaOvsiienko/portfolio-site',
+    btnGitHubText: 'GitHub Repo'
+}
   ]
   
   export default ProjectCardContent

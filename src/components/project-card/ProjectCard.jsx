@@ -1,4 +1,6 @@
 import GitHubIcon from '@mui/icons-material/GitHub'
+import Link from '../link/Link'
+import './ProjectCard.styles.css'
 
 const ProjectCard = ({
   imgSrc,
@@ -12,7 +14,8 @@ const ProjectCard = ({
   btnGitHubText,
   variant,
   showDescription,
-  showGitHubButton
+  showGitHubButton,
+  showViewButton
 }) => {
   
   return (
@@ -34,18 +37,20 @@ const ProjectCard = ({
               <p className={`card-project-description-text ${variant}`}>{description}</p>
               
               <div className={`card-project-button-box ${variant}`}>
-                <a href={tryLink} target="_blank" rel="noopener noreferrer">
+              {showViewButton && (
+                <Link href={tryLink} className='project-link'>
                   <button className={`card-project-button-try ${variant}`}>
                     {btnTryText}
                   </button>
-                </a>
+                </Link>
+              )}
                 {showGitHubButton && (
-                <a href={gitHubLink} target="_blank" rel="noopener noreferrer">
+                <Link href={gitHubLink} className='project-link'>
                   <button className={`card-project-button-gitHub ${variant}`}>
                     <GitHubIcon />
                     {btnGitHubText}
                   </button>
-                </a>
+                </Link>
                 )}
               </div>
             </div>

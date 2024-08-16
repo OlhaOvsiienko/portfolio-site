@@ -27,6 +27,7 @@
 .card-project-text-button-box {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .card-project-title-box.page {

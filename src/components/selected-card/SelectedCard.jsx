@@ -1,6 +1,5 @@
 import ProjectCardContent from "../project-card-content/ProjectCardContent.js"
 import ProjectCard from "../project-card/ProjectCard.jsx"
-import './SelectedCard.styles.css'
 
 const SelectedCard = ({ label }) => {
     
@@ -21,6 +20,7 @@ const SelectedCard = ({ label }) => {
         btnGitHubText={selectedProject.btnGitHubText}
         showDescription={true}
         showGitHubButton={label !== 'Space2Study'}
+        showViewButton={label !== 'ThisSite'}
       />
     </div>
   );
