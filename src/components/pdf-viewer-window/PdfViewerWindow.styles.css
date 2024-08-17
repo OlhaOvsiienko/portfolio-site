@@ -1,0 +1,22 @@
+.button-CV-container {
+    margin-bottom: 10px;
+}
+
+.button-CV {
+    background-color: #8ea69b;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.button-CV:hover {
+    background-color: #b7cabf;
+    color: black;
+}
+
+
+.button-CV:active {
+    background-color: #bfd3c7;
+}

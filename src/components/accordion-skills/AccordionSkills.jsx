@@ -4,7 +4,6 @@ import SkillsContentJS from '../skills-content-js/SkillsContentJS'
 import SkillsContentDB from '../skills-content-db/SkillsContentDB'
 import SkillsContentDevops from '../skills-content-devops/SkillsContentDevops'
 import SkillsContentReact from '../skills-content-react/SkillsContentReact'
-import './AccordionSkills.styles.css'
 
 const accordionItems = [
   { title: "Html Css JS", component: <SkillsContentHtmlCssJs /> },

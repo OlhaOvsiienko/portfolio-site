@@ -96,7 +96,6 @@
   padding: 10px;
   margin-left: 0px;
   margin-right: 0px;
-  width: 70%;
   border: none;
 }
 
@@ -109,10 +108,6 @@
   padding: 0px;
 }
 
-/*=================With decoration nav-buttons according to location=================*/
-/*.nav-button.active, .portfolio-button.active {
-  color: black;
-}*/
 
 
 
