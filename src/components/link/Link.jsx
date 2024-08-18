@@ -1,10 +1,10 @@
-import { Link as RouterLink } from 'react-router-dom';
-import './Link.styles.css';
+import { Link as RouterLink } from 'react-router-dom'
+import './Link.styles.css'
 
 const Link = ({ to, href, children, ...props }) => {
   
-  const isExternal = href && !to;
-  const isInternal = to && !href;
+  const isExternal = href && !to
+  const isInternal = to && !href
 
   if (isExternal) {
     return (
@@ -29,10 +29,10 @@ const Link = ({ to, href, children, ...props }) => {
       >
         {children}
       </RouterLink>
-    );
+    )
   }
 
-  return null;
-};
+  return null
+}
 
-export default Link;
+export default Link
