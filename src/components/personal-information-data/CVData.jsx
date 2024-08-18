@@ -12,7 +12,8 @@ const CVData = [
     list2: [
       'HTML/CSS/JS Fundamentals (2023)', 
       'JAVASCRIPT Fundamentals (2023)', 
-      'DATABASE Fundamentals (2023)', 
+      'DATABASE Fundamentals (2023)',
+      'DEVOPS for Developers (2024)', 
       'Practical REACT (2024)', 
       'WebUI Project Based Learning (2024)'
     ],
