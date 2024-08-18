@@ -1,0 +1,10 @@
+.view-cv {
+    display: flex;
+    justify-content: center;
+    background-color: #8ea69b;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}

@@ -1,7 +1,6 @@
-import Link from '../link/Link'
 import './PersonalInformationBlock.styles.css'
 
-const PersonalInformationBlock = ({ title, text1, list1, text2, list2, button1, button2 }) => {
+const PersonalInformationBlock = ({ title, text1, list1, text2, list2, description }) => {
   return (
     <div className='personal-information'>
       <h3 className='personal-information-title'>{title}</h3>
@@ -22,31 +21,15 @@ const PersonalInformationBlock = ({ title, text1, list1, text2, list2, button1, 
             ))}
           </ul>
         )}
-        <div className='personal-information-button-container'>
-          {button1 && (
-            <Link 
-              to={button1.to} 
-              href={button1.href} 
-              className='button-link'
-            >
-              {button1.label}
-            </Link>
-          )}
-          {button2 && (
-            <Link 
-              to={button2.to} 
-              href={button2.href} 
-              className='button-link'
-            >
-              {button2.label}
-            </Link>
-          )}
+        <div className='personal-information-description'>
+          {description}
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default PersonalInformationBlock
+
 
 

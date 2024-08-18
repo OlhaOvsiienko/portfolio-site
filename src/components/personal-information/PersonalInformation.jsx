@@ -7,7 +7,10 @@ import './PersonalInformation.styles.css'
 const PersonalInformation = () => {
   return (
     <div>
-        <PdfViewerWindow pdfCV={pdfCV} /> 
+        <div className='view-cv'>
+         <PdfViewerWindow pdfCV={pdfCV} /> 
+        </div>
+        
       {CVData.map((block, index) => (
         <PersonalInformationBlock
           key={index}
@@ -16,8 +19,7 @@ const PersonalInformation = () => {
           list1={block.list1}
           text2={block.text2}
           list2={block.list2}
-          button1={block.button1}
-          button2={block.button2}
+          description={block.description}
         />
       ))}
       
