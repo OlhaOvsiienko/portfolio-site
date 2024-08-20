@@ -74,9 +74,9 @@ const ProjectCardContent = [
           </>
         ),
         label: 'ToDoList',
-        tryLink: 'https://koldovsky.github.io/1038-team-03/schedule.html#', 
+        tryLink: 'https://to-do-list-ovsiienko.netlify.app/', 
         btnTryText: 'Try',
-        gitHubLink: 'https://github.com/koldovsky/1038-team-03/blob/main/partials/schedule.clinics.partial.html',
+        gitHubLink: 'https://github.com/OlhaOvsiienko/to-do-list-Ovsiienko/tree/master/src/Components',
         btnGitHubText: 'GitHub Repo'
     },
     {

@@ -29,7 +29,7 @@ const CVData = [
       text1: 'Yaroslav Mudryi National Law University (Kharkiv)',
       list1: [
         '2006-2023: Associate professor of the Department of Economic Theory', 
-        '2008-2015: Responsible executor of research projects, which are carried out at the expense of the state budget'
+        '2008-2015: Responsible executor of research projects, carried out of the state budget'
       ],
       text2: 'National Pharmaceutical University (Kharkiv)',
       list2: [
