@@ -131,7 +131,27 @@ const ProjectCardContent = [
     label: 'ThisSite',
     gitHubLink: 'https://github.com/OlhaOvsiienko/portfolio-site',
     btnGitHubText: 'GitHub Repo'
-}
+},
+
+{
+  imgSrc: require('./../../images/ValidationForm.jpg'),
+  imgAlt: 'Quiz',
+  title: 'Quiz',
+  abstract: 'React, Mui Materials',
+  description: (
+  <>
+    This React project.
+    <br /><br />
+    Material UI is used.
+    <br /><br />
+  </>
+  ),
+  label: 'Quiz',
+  tryLink: 'https://quiz-ovsiienko.netlify.app/', 
+  btnTryText: 'Try',
+  gitHubLink: 'https://github.com/OlhaOvsiienko/quiz',
+  btnGitHubText: 'GitHub Repo'
+},
   ]
   
   export default ProjectCardContent
