@@ -9,6 +9,7 @@ const DropdownMenu = ({ closeMenu }) => {
     { label: 'Form Validation', path: '/portfolio/FormValidation' },
     { label: 'Space2Study', path: '/portfolio/Space2Study' },
     { label: 'This Site', path: '/portfolio/ThisSite' },
+    { label: 'Quiz', path: '/portfolio/Quiz' },
 
   ]
 

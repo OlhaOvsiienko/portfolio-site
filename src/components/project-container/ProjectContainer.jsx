@@ -11,7 +11,7 @@ const ProjectContainer = () => {
         <>
         <div className='projects-container-title'>
             <h3>Portfolio</h3>
-            <p>Some of my practical worts which has been done during my studying at SoftServeAcademy are presented here. 
+            <p>Some of my practical works which has been done during my studying at SoftServeAcademy are presented here. 
             <br />
             I'll appreciate any comments. Please, feel free to contact me.
             </p>

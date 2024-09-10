@@ -134,13 +134,13 @@ const ProjectCardContent = [
 },
 
 {
-  imgSrc: require('./../../images/ValidationForm.jpg'),
+  imgSrc: require('./../../images/Quiz.jpg'),
   imgAlt: 'Quiz',
   title: 'Quiz',
   abstract: 'React, Mui Materials',
   description: (
   <>
-    This React project.
+    This is React project.
     <br /><br />
     Material UI is used.
     <br /><br />
